@@ -75,7 +75,6 @@ console.log(secret)
 // We set line 85 condition if isStudent is strictly equal to true AND zip is > 8000, line 87 condition else if isStudent is false or age <30, line 89 is isStudent is strictly equal to true and line 91 else condition if all previous conditions are false.   
 // We check to see that only line 89 condition is true.
 // We console.log('Welcome to Prime!'); 
-
 //CODE
 /*
 let isStudent = true;
@@ -131,6 +130,8 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - let colors are mis-matched
+// Should be colorOne = 'blue', colorTwo = 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -147,7 +148,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// FIX - Wrong logic operator symbol used 
+// Should be (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,7 +162,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// FIX - Condition is backward as minAge is a constant
+// Should be (age <= minAge)
 if(minAge <= age) {
   console.log('no entry');
 } else {
