@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as a value.
+// On line 38 we added a conditional that if name strictly has same value as Mary we console.log('Hi,Mary!')
+// We added another condition else on line 40 that if line 38 reads false 
+// As name has already been given value of "Dane", second else condition code will execute as first condition is false. we console.log ('How do you do?')
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We define a variable called secret without value 
+// We make a variable code and set as an integer of 123
+// On line 59 we added condition that if code strictly equals 123. Then code will execute as secret = 'super' and code = 146. 
+// On line 64 if code is greater than 250 then secret = 'duper' will execute
+// We console.log(secret) which will execute line 60 condition as line 65 condition is false
 
 //CODE
 /*
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make variable on line 81 isStudent and set it to true as a value, on line 82 age and set an integer of 34, on line 83 zip and set an integer of 55407.
+// We set line 85 condition if isStudent is strictly equal to true AND zip is > 8000, line 87 condition else if isStudent is false or age <30, line 89 is isStudent is strictly equal to true and line 91 else condition if all previous conditions are false.   
+// We check to see that only line 89 condition is true.
+// We console.log('Welcome to Prime!'); 
 
 //CODE
 /*
