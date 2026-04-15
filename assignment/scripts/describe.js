@@ -1,10 +1,9 @@
 // WHAT IS THIS EVEN DOING?
 
-// For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening. 
+// For questions 1-3, each code block is syntactically and logically correct. Your job is to describe what is happening.
 // They are in isolation -- variables in one question do not affect other questions.
 // Describe the code as it would be run, and make sure you give us the console.log's value at the end.
 // (Don't just say 'we console log the variable' -- instead say something like 'we console log 'yes'')
-
 
 // 0. WRITE YOUR DESCRIPTION HERE
 // //EXAMPLE. We make a variable called number and set it to 1 as a number.
@@ -24,11 +23,10 @@ if (number >= 2) {
 
 */
 
-
 // 1. WRITE YOUR DESCRIPTION HERE
 // We make a variable called name and set it to Dane as a value.
 // On line 38 we added a conditional that if name strictly has same value as Mary we console.log('Hi,Mary!')
-// We added another condition else on line 40 that if line 38 reads false 
+// We added another condition else on line 40 that if line 38 reads false
 // As name has already been given value of "Dane", second else condition code will execute as first condition is false. we console.log ('How do you do?')
 
 //CODE
@@ -42,12 +40,13 @@ if (name === 'Mary') {
 }
 
 
+
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We define a variable called secret without value 
+// We define a variable called secret without value
 // We make a variable code and set as an integer of 123
-// On line 59 we added condition that if code strictly equals 123. Then code will execute as secret = 'super' and code = 146. 
+// On line 59 we added condition that if code strictly equals 123. Then code will execute as secret = 'super' and code = 146.
 // On line 64 if code is greater than 250 then secret = 'duper' will execute
 // We console.log(secret) which will execute line 60 condition as line 65 condition is false
 
@@ -72,11 +71,13 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // We make variable on line 81 isStudent and set it to true as a value, on line 82 age and set an integer of 34, on line 83 zip and set an integer of 55407.
-// We set line 85 condition if isStudent is strictly equal to true AND zip is > 8000, line 87 condition else if isStudent is false or age <30, line 89 is isStudent is strictly equal to true and line 91 else condition if all previous conditions are false.   
+// We set line 85 condition if isStudent is strictly equal to true AND zip is > 8000, line 87 condition else if isStudent is false or age <30, line 89 is isStudent is strictly equal to true and line 91 else condition if all previous conditions are false.
 // We check to see that only line 89 condition is true.
-// We console.log('Welcome to Prime!'); 
+// We console.log('Welcome to Prime!');
 //CODE
 /*
+
+
 let isStudent = true;
 let age = 34;
 let zip = 55407;
@@ -93,11 +94,8 @@ if (isStudent === true && zip > 80000 ) {
 
 */
 
-
-
-
 // REVERSE
-// Now, for questions 4-6, we'll give you a description and some code. 
+// Now, for questions 4-6, we'll give you a description and some code.
 // Some of the code will NOT match the description.
 // Comment above the problem code, and describe a potential solution.
 // Look closely -- things are logically incorrect or missing and wrong in the code!
@@ -106,7 +104,7 @@ if (isStudent === true && zip > 80000 ) {
 // 0. (DESCRIPTION OF CORRECT BEHAVIOR)
 // We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2. 
+// We check if number is greater than or equal to 2.
 // -- it is, so we console.log 'yes'
 
 //CODE
@@ -123,10 +121,8 @@ if (number >= 2) {
 
 */
 
-
-
-//4. We start with three variables -- colorOne is set to 'blue' and 
-// colorTwo is set to 'red', and mix is set to true. We check if mix is true 
+//4. We start with three variables -- colorOne is set to 'blue' and
+// colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
@@ -142,7 +138,7 @@ if (mix === true) {
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 and if time is greater or equal to  4 
+// We check if temp is higher than 39 and if time is greater or equal to  4
 // -- they are so we console.log 'throw away the food!'
 
 /*
@@ -156,7 +152,7 @@ if (temp > 39 || time >= 4) {
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
-// We check if age is greater than or equal to minAge 
+// We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
 /*
@@ -170,4 +166,3 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
